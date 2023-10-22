@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+}
+
+li {
+  text-decoration: none;
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}
+
+.first-row {
+}
+.second-row {
+}
+.third-row {
+}
+.four-row {
+}
