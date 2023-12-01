@@ -50,8 +50,10 @@ li {
   background-color: #fff;
   border: 2px solid var(--pastel-blue);
   background: url("/images/image1.jpg");
+  background-size: 400px 400px;
 }
 
+/* 첫째 줄 */
 .first-1 {
   background-position-x: 0px;
   background-position-y: 0px;
@@ -67,24 +69,63 @@ li {
 }
 
 .first-4 {
-  background-position-x: -300px;
-  background-position-y: 0;
+  background-position-x: 0;
+  background-position-y: -100px;
 }
 
+/* 둘째줄 */
 .second-1 {
   background-position-x: -100px;
   background-position-y: -100px;
 }
 
-.second-1 {
+.second-2 {
   background-position-x: -200px;
   background-position-y: -100px;
 }
-.second-1 {
+.second-3 {
   background-position-x: -300px;
   background-position-y: -100px;
 }
-.second-1 {
+.second-4 {
   background-position-x: -400px;
-  background-position-y: -100px;
+  background-position-y: -200px;
+}
+
+/* 셋째줄 */
+.third-1 {
+  background-position-x: -100px;
+  background-position-y: -200px;
+}
+
+.third-2 {
+  background-position-x: -200px;
+  background-position-y: -200px;
+}
+.third-3 {
+  background-position-x: -300px;
+  background-position-y: -200px;
+}
+.third-4 {
+  background-position-x: -400px;
+  background-position-y: -200px;
+}
+
+/* 넷째줄 */
+.four-1 {
+  background-position-x: -100px;
+  background-position-y: -300px;
+}
+
+.four-2 {
+  background-position-x: -200px;
+  background-position-y: -300px;
+}
+.four-3 {
+  background-position-x: -300px;
+  background-position-y: -300px;
+}
+.four-4 {
+  background-position-x: -400px;
+  background-position-y: -300px;
 }
